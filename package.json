@@ -1,0 +1,27 @@
+{
+  "name": "stc-qa",
+  "version": "1.0.0",
+  "description": "Automation test for Save the Children",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "cypress run",
+    "cy:verify": "cypress verify",
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://shantila@bitbucket.org/LuminaryDigital/stc-qa.git"
+  },
+  "author": "Luminary",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/LuminaryDigital/stc-qa#readme",
+  "devDependencies": {
+    "cypress": "^6.7.1",
+    "eslint": "^6.0.1",
+    "eslint-plugin-cypress": "^2.6.0"
+  },
+  "volta": {
+    "node": "10.16.0"
+  }
+}
